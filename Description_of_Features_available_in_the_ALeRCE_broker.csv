@@ -1,0 +1,99 @@
+Feature name,Description,"bands (g, r, or multiband)",Reference
+Amplitude,Half of the difference between the median of the maximum 5% and of the minimum 5% magnitudes,g and r,Richards+2011
+AndersonDarling,Test of whether a sample of data comes from a population with a specific distribution (in this case a normal distribution),g and r,Nun+2015
+Autocor_length,Lag value where the auto-correlation function becomes smaller than Eta_e,g and r,Kim+2011
+Beyond1Std,Percentage of points with photometric mag that lie beyond 1 sigma from the mean,g and r,Richards+2011
+Con,Number of three consecutive data points brighter/fainter than 2 sigma of the light curve,g and r,Kim+2011
+delta_mag_fid,Difference between maximum and minimum observed magnitude in a given band,g and r,Sánchez-Sáez+2021
+delta_mjd_fid,Total timespan of the light curve in a given band,g and r,internal use within ALeRCE
+delta_period,Absolute value of the difference between the Multiband_period and the MHAOV period obtained using a single band,g and r,Sánchez-Sáez+2021
+dmag_first_det_fid,"Difference between the last non-detection diffmaglim in band ""x"" before the first detection in any band and the first detected magnitude in band ""x""' ",g and r,Sánchez-Sáez+2021
+dmag_non_det_fid,"Difference between the median non-detection diffmaglim in the ""x"" band before the first detection and the minimum detected magnitude (peak) in the ""x"" band",g and r,Sánchez-Sáez+2021
+Eta_e,Ratio of the mean of the squares of successive mag differences to the variance of the light curve,g and r,Kim+2014
+ExcessVar,Measure of the intrinsic variability amplitude [(Std - average photometric error)/Mean],g and r,Allevato+2013
+first_mag,magnitude of the first alert in a given band,g and r,internal use within ALeRCE
+g-r_max,g-r color obtained using the brightest lc_diff (difference light curve) magnitude in each band,multiband,Sánchez-Sáez+2021
+g-r_max_corr,g-r color obtained using the brightest lc_corr (corrected light curve or total magnitude light curve) magnitude in each band,multiband,Sánchez-Sáez+2021
+g-r_mean,g-r color obtained using the mean lc_diff magnitude of each band,multiband,Sánchez-Sáez+2021
+g-r_mean_corr,g-r color obtained using the mean lc_corr magnitude of each band,multiband,Sánchez-Sáez+2021
+g-W2,color computed using the mean lc_corr g band magnitude (or the mean g band lc_diff if the source cannot be corrected) and the W2 band of AllWISE ,multiband,Sánchez-Sáez+2021
+g-W3,color computed using the mean lc_corr g band magnitude (or the mean g band lc_diff if the source cannot be corrected) and the W3 band of AllWISE ,multiband,Sánchez-Sáez+2021
+gal_b,Galactic latitude ,other,
+gal_l,Galactic longitude,other,
+GP_DRW_sigma,"Amplitude of the variability at short timescales (t << tau), from DRW modeling",g and r,Graham+2017
+GP_DRW_tau,Relaxation time (tau) from DRW modeling ,g and r,Graham+2017
+Gskew,Median-based measure of the skew,g and r,Nun+2015
+Harmonics_mag_1,Amplitude of the 1st component of the harmonics series (obtained by fitting a harmonic series up to the seventh harmonic),g and r,Stellingwerf&Donohoe1986
+Harmonics_mag_2,Amplitude of the 2nd component of the harmonics series (obtained by fitting a harmonic series up to the seventh harmonic),g and r,Stellingwerf&Donohoe1986
+Harmonics_mag_3,Amplitude of the 3rd component of the harmonics series (obtained by fitting a harmonic series up to the seventh harmonic),g and r,Stellingwerf&Donohoe1986
+Harmonics_mag_4,Amplitude of the 4th component of the harmonics series (obtained by fitting a harmonic series up to the seventh harmonic),g and r,Stellingwerf&Donohoe1986
+Harmonics_mag_5,Amplitude of the 5th component of the harmonics series (obtained by fitting a harmonic series up to the seventh harmonic),g and r,Stellingwerf&Donohoe1986
+Harmonics_mag_6,Amplitude of the 6th component of the harmonics series (obtained by fitting a harmonic series up to the seventh harmonic),g and r,Stellingwerf&Donohoe1986
+Harmonics_mag_7,Amplitude of the 7th component of the harmonics series (obtained by fitting a harmonic series up to the seventh harmonic),g and r,Stellingwerf&Donohoe1986
+Harmonics_mse,Mean squarre error of the harmonics series (obtained by fitting a harmonic series up to the seventh harmonic),g and r,Stellingwerf&Donohoe1986
+Harmonics_phase_2,Phase of the 2nd component of the harmonics series (obtained by fitting a harmonic series up to the seventh harmonic),g and r,Stellingwerf&Donohoe1986
+Harmonics_phase_3,Phase of the 3rd component of the harmonics series (obtained by fitting a harmonic series up to the seventh harmonic),g and r,Stellingwerf&Donohoe1986
+Harmonics_phase_4,Phase of the 4th component of the harmonics series (obtained by fitting a harmonic series up to the seventh harmonic),g and r,Stellingwerf&Donohoe1986
+Harmonics_phase_5,Phase of the 5th component of the harmonics series (obtained by fitting a harmonic series up to the seventh harmonic),g and r,Stellingwerf&Donohoe1986
+Harmonics_phase_6,Phase of the 6tth component of the harmonics series (obtained by fitting a harmonic series up to the seventh harmonic),g and r,Stellingwerf&Donohoe1986
+Harmonics_phase_7,Phase of the 7th component of the harmonics series (obtained by fitting a harmonic series up to the seventh harmonic),g and r,Stellingwerf&Donohoe1986
+IAR_phi,Level of autocorrelation using a  discrete-time representation of a DRW model,g and r,Eyheramendy+2018
+last_diffmaglim_before_fid,Last non-detection diffmaglim in the ''x'' band before the first detection in any band,g and r,Sánchez-Sáez+2021
+last_mjd_before_fid,Last non-detection Modified Julian Date (MJD) in the ''x'' band before the first detection in any band.,g and r,internal use within ALeRCE
+LinearTrend,Slope of a linear fit to the light curve,g and r,Richards+2011
+max_diffmaglim_after_fid,Maximum non-detection diffmaglim in the ''x'' band after the first detection in any band,g and r,Sánchez-Sáez+2021
+max_diffmaglim_before_fid,Maximum non-detection diffmaglim in the ''x'' band before the first detection in any band,g and r,Sánchez-Sáez+2021
+MaxSlope,Maximum absolute magnitude slope between two consecutive observations,g and r,Richards+2011
+Mean,Mean lc_corr magnitude (or mean lc_diff if the source cannot be corrected),g and r,
+Meanvariance,Ratio of the standard deviation to the mean magnitude,g and r,Nun+2015
+median_diffmaglim_after_fid,Median non-detection diffmaglim in the ''x'' band after the first detection in any band,g and r,Sánchez-Sáez+2021
+median_diffmaglim_before_fid,Median non-detection diffmaglim in the ''x'' band before the first detection in any band,g and r,Sánchez-Sáez+2021
+MedianAbsDev,Median discrepancy of the data from the median data,g and r,Richards+2011
+MedianBRP,Fraction of photometric points within amplitude/10 of the median mag,g and r,Richards+2011
+MHPS_high,Variance associated with a 10 day timescale obtained from a MHPS analysis,g and r,Arévalo+2012
+MHPS_low,Variance associated with a 100 day timescale obtained from a MHPS analysis,g and r,Arévalo+2012
+MHPS_non_zero,Number of points in the light curve used for the MHPS analysis,g and r,Arévalo+2012
+MHPS_PN_flag,Flag that reports whether the Poisson Noise is higher than the MHPS_high variance,g and r,Arévalo+2012
+MHPS_ratio,Ratio between the MHPS_low and MHPS_high variances for a given band,g and r,Arévalo+2012
+min_mag,minimun magnitude of the alert light curve in a given band,g and r,internal use within ALeRCE
+Multiband_period,Period obtained using the multiband MHAOV periodogram,multiband,Mondrik+2015
+n_det,number of detections in the alert light curve of a given band,g and r,internal use within ALeRCE
+n_neg,number of negative detections in the alert light curve (isdiffpos=-1),g and r,internal use within ALeRCE
+n_non_det_after_fid,Number of non-detections in the ''x'' band after the first detection in any band,g and r,Sánchez-Sáez+2021
+n_non_det_before_fid,Number of non-detections in the ''x'' band before the first detection in any band,g and r,Sánchez-Sáez+2021
+n_pos,number of positive detections in the alert light curve (isdiffpos=+1),g and r,internal use within ALeRCE
+PairSlopeTrend,Fraction of increasing first differences minus fraction of decreasing first differences over the last 30 time-sorted mag measures,g and r,Richards+2011
+PercentAmplitude,Largest percentage difference between either max or min mag and median mag,g and r,Richards+2011
+Period_band,Single band period computed using a Multi Harmonic Analysis of Variance (MHAOV) periodogram,g and r,Huijse+2018
+positive_fraction,Fraction of detections in the difference-images of a given band which are brighter than the template image,g and r,Sánchez-Sáez+2021
+Power_rate_1/2,Ratio between the power of the multiband periodogram obtained for the best period candidate (P) and for P/2,multiband,Sánchez-Sáez+2021
+Power_rate_1/3,Ratio between the power of the multiband periodogram obtained for the best period candidate (P) and for P/3,multiband,Sánchez-Sáez+2021
+Power_rate_1/4,Ratio between the power of the multiband periodogram obtained for the best period candidate (P) and for P/4,multiband,Sánchez-Sáez+2021
+Power_rate_2,Ratio between the power of the multiband periodogram obtained for the best period candidate (P) and for 2*P,multiband,Sánchez-Sáez+2021
+Power_rate_3,Ratio between the power of the multiband periodogram obtained for the best period candidate (P) and for 3*P,multiband,Sánchez-Sáez+2021
+Power_rate_4,Ratio between the power of the multiband periodogram obtained for the best period candidate (P) and for 4*P,multiband,Sánchez-Sáez+2021
+PPE,Multiband Periodogram Pseudo Entropy,multiband,Sánchez-Sáez+2021
+Psi_CS,Range of a cumulative sum applied to the phase-folded light curve,g and r,Kim+2011
+Psi_eta,Eta_e index calculated from the folded light curve,g and r,Kim+2014
+Pvar,Probability that the source is intrinsically variable,g and r,McLaughlin+1996
+Q31,Difference between the 3rd and the 1st quartile of the light curve,g and r,Kim+2014
+r-W2,Color computed using the mean lc_corr r band magnitude (or the mean r band lc_diff if the source cannot be corrected) and the W2 band of AllWISE ,multiband,Sánchez-Sáez+2021
+r-W3,Color computed using the mean lc_corr r band magnitude (or the mean r band lc_diff if the source cannot be corrected) and the W3 band of AllWISE ,multiband,Sánchez-Sáez+2021
+rb,Median rb (real-bogus) parameter from the ZTF alerts,multiband,Sánchez-Sáez+2021
+Rcs,Range of a cumulative sum,g and r,Kim+2011
+SF_ML_amplitude,"Rms magnitude difference of the structure function, computed over a 1 yr timescale",g and r,Schmidt+2010
+SF_ML_gamma,Logarithmic gradient of the mean change in magnitude (computed from the structure function),g and r,Schmidt+2010
+sgscore1,Morphological star/galaxy score of the closest source from PanSTARRS1 (values closer to 1 imply a higher likelihood of the source being a star),other,Tachibana+2018
+Skew,Skewness measure,g and r,Richards+2011
+SmallKurtosis,Small sample kurtosis of the magnitudes,g and r,Richards+2011
+SPM_A,Supernova parametric model  A,g and r,"Villar+2019, Sánchez+Sáez+2021"
+SPM_beta,Supernova parametric model beta,g and r,"Villar+2019, Sánchez+Sáez+2021"
+SPM_chi,Supernova parametric model reduced chi2 of the light curve fit,g and r,"Villar+2019, Sánchez+Sáez+2021"
+SPM_gamma,Supernova parametric model gamma,g and r,"Villar+2019, Sánchez+Sáez+2021"
+SPM_t0,Supernova parametric model t0,g and r,"Villar+2019, Sánchez+Sáez+2021"
+SPM_tau_fall,Supernova parametric model fall time,g and r,"Villar+2019, Sánchez+Sáez+2021"
+SPM_tau_rise,Supernova parametric model rise time,g and r,"Villar+2019, Sánchez+Sáez+2021"
+Std,Standard deviation of the light curve,g and r,Nun+2015
+StetsonK,Robust kurtosis measure,g and r,Kim+2011
+W1-W2,color computed using the W1 and W2 bands of AllWISE ,multiband,Sánchez-Sáez+2021
+W2-W3,color computed using the W2 and W3 bands of AllWISE ,multiband,Sánchez-Sáez+2021
